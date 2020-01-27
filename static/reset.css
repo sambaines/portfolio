@@ -1,0 +1,56 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+*:before {
+  box-sizing: inherit;
+}
+*:after {
+  box-sizing: inherit;
+} 
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+}
+textarea {
+  resize: none;
+}
+::-moz-selection {
+  /* Code for Firefox */
+    background: #3818e5;
+    color: #ffffff;
+}
+::selection {
+   background: #3818e5;
+    color: #ffffff;
+}
+::-webkit-input-placeholder {
+     /* WebKit, Blink, Edge */
+    color: #a3afbf;
+}
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #a3afbf;
+    opacity: 1;
+}
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #a3afbf;
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #a3afbf;
+}

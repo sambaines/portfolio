@@ -9,16 +9,9 @@
 
 const posts = [
 	{
-		title: 'Live Building a Portfolio',
-		slug: 'live-building-a-portfolio',
-		html: `
-			<p>Following the trend.</p>
-		`
-	},
-
-	{
 		title: 'How to use Sapper',
 		slug: 'how-to-use-sapper',
+		published: '29th Jan 2020',
 		html: `
 			<h2>Step one</h2>
 			<p>Create a new project, using <a href='https://github.com/Rich-Harris/degit'>degit</a>:</p>
@@ -39,39 +32,26 @@ const posts = [
 			<p>Resist overdone joke formats.</p>
 		`
 	},
-
+	
 	{
-		title: 'Why the name?',
-		slug: 'why-the-name',
+		title: 'Initial Draft',
+		slug: 'initial-draft',
+		published: '28th Jan 2020',
 		html: `
-			<p>In war, the soldiers who build bridges, repair roads, clear minefields and conduct demolitions — all under combat conditions — are known as <em>sappers</em>.</p>
-
-			<p>For web developers, the stakes are generally lower than those for combat engineers. But we face our own hostile environment: underpowered devices, poor network connections, and the complexity inherent in front-end engineering. Sapper, which is short for <strong>S</strong>velte <strong>app</strong> mak<strong>er</strong>, is your courageous and dutiful ally.</p>
-		`
-	},
-
-	{
-		title: 'How is Sapper different from Next.js?',
-		slug: 'how-is-sapper-different-from-next',
-		html: `
-			<p><a href='https://github.com/zeit/next.js'>Next.js</a> is a React framework from <a href='https://zeit.co'>Zeit</a>, and is the inspiration for Sapper. There are a few notable differences, however:</p>
-
-			<ul>
-				<li>It's powered by <a href='https://svelte.dev'>Svelte</a> instead of React, so it's faster and your apps are smaller</li>
-				<li>Instead of route masking, we encode route parameters in filenames. For example, the page you're looking at right now is <code>src/routes/blog/[slug].html</code></li>
-				<li>As well as pages (Svelte components, which render on server or client), you can create <em>server routes</em> in your <code>routes</code> directory. These are just <code>.js</code> files that export functions corresponding to HTTP methods, and receive Express <code>request</code> and <code>response</code> objects as arguments. This makes it very easy to, for example, add a JSON API such as the one <a href='blog/how-is-sapper-different-from-next.json'>powering this very page</a></li>
-				<li>Links are just <code>&lt;a&gt;</code> elements, rather than framework-specific <code>&lt;Link&gt;</code> components. That means, for example, that <a href='blog/how-can-i-get-involved'>this link right here</a>, despite being inside a blob of HTML, works with the router as you'd expect.</li>
-			</ul>
-		`
-	},
-
-	{
-		title: 'How can I get involved?',
-		slug: 'how-can-i-get-involved',
-		html: `
-			<p>We're so glad you asked! Come on over to the <a href='https://github.com/sveltejs/svelte'>Svelte</a> and <a href='https://github.com/sveltejs/sapper'>Sapper</a> repos, and join us in the <a href='https://svelte.dev/chat'>Discord chatroom</a>. Everyone is welcome, especially you!</p>
+			<p>This is the year I start to push on and make things happen for myself. This is the initial draft.</p>
+			<p>I've set new goals this year to hopefully get me to a place I want to be by year end; goals about writing, coding, product building, reading and health. I'm not going to be able
+			to complete them all, but let's give it a go. One of the main goals is to push my career further and that starts with having an up-to-date portfolio and home on the web.</p>
+			<p>To this end I am following the trend of live iteration and going to design and build this in the wild: there will be mistakes. Stylesheets are going to go awry, designs aren't going to be
+			pixel perfect but it's a start. Inspiration for this came from <a href="https://destroytoday.com/">Jonnie Hallman</a> and his recent blogging and building. I'm also going to use this
+			as a massive learning curve for a whole host of things from design to privacy focus products (looking at you <a href="https://usefathom.com/">Fathom</a>) to writing.</p>
+			<p>The theory I am following for the layout and focus is from this Dann Petty video:</p>
+			<br />
+			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/K5jb2dxZSPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<br />
+			<p>'Hey What About Me?' - let's see how this unfolds over the next few weeks. I'm planning one post a week this year (so I am already behind) but by the end 52 posts is the goal.</p>
 		`
 	}
+
 ];
 
 posts.forEach(post => {

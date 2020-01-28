@@ -21,3 +21,14 @@ p {
 	line-height: 1.5rem;
 	margin-top: 1rem;
 }
+
+ul {
+	list-style: none;
+}
+
+iframe {
+	width: 100%;
+	max-width: 560px;
+	margin: 0.5rem auto;
+	display: block;
+}

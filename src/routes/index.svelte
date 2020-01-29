@@ -11,6 +11,20 @@
 </script>
 
 <style>
+	.hey {
+		padding-right: 2rem;
+	}
+
+	h1 {
+		font-size: 3.2rem;
+		line-height: 2.5rem;
+	}
+
+	span {
+		color: darkorange;
+		margin-left: 2px;
+	}
+
 	ul {
 		margin-top: 2rem;
 	}
@@ -21,12 +35,18 @@
 
 	li a {
 		font-family: var(--heading-text);
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 
 	p {
 		margin-top: -0.25rem;
 		color: darkorange;
+	}
+
+	@media screen and (min-width: 874px) {
+		h1 {
+			padding-right: 4rem;
+		}
 	}
 </style>
 
@@ -34,7 +54,9 @@
 	<title>Sam Baines</title>
 </svelte:head>
 
-<h1>Web Designer</h1>
+<div class="hey">
+	<h1>Web Designer<span>.</span> Code Wrangler<span>.</span> Story Teller<span>.</span> World Builder<span>.</span></h1>
+</div>
 
 <ul>
 	{#each posts as post}

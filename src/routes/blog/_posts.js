@@ -9,6 +9,21 @@
 
 const posts = [	
 	{
+		title: 'A Short Introduction',
+		slug: 'short-introduction',
+		published: '29th Jan 2020',
+		html: `
+			<p>Today I've only jumped in for a short period - adding a little intro statement to the homepage so people can find out what I enjoy working on/the work they can expect to see from me.
+			I tend to tackle web design and wrangle a bit of code (mainly vanilla JS, html and my jam CSS!) but also like to tell stories and write worlds (but that's a story for another day).</p>
+			<p>I find it hard to write or summarise myself and what I am within a little title section. For now this feels fine, but expect this to be chopped and changed in the coming weeks. Especially
+			when the full design work starts to happen. I need to narrow down the purpose of this section, make it succinct and powerful. For there will be a full 'about' section further down the track.</p>
+			<h3>Design Tweaks</h3>
+			<p>I've also added some more styling. Realy basic stuff, padding, max-width, etc. just to try and improve legibility. I'm finding my feet with a color palette route but this will take some time, got to make sure it's
+			all <a href="https://www.getstark.co/">Stark</a> Approved. Accessibility is something that I want to dig into further this year and so color contrast seems like a good starting point.</p>
+			<p>Tomorrow more tweaks - maybe try adjusting the 'CH' unit for perfect sentence length.</p>
+		`
+	},
+	{
 		title: 'Initial Draft',
 		slug: 'initial-draft',
 		published: '28th Jan 2020',

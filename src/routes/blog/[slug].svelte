@@ -27,8 +27,12 @@
 		all elements inside .content
 	*/
 	.content :global(h2) {
-		font-size: 1.4em;
-		font-weight: 500;
+		font-size: 2rem;
+	}
+
+	.content :global(h3) {
+		font-size: 1.75rem;
+		margin-top: 1rem;
 	}
 
 	.content :global(pre) {

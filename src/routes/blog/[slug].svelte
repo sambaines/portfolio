@@ -54,6 +54,12 @@
 
 	.content :global(li) {
 		margin: 0 0 0.5em 0;
+		font-family: var(--body-text);
+	}
+
+	.content :global(a) {
+		color: darkorange;
+		border-bottom: 2px dashed darkorange;
 	}
 
 	.title {

@@ -9,6 +9,32 @@
 
 const posts = [	
 	{
+		title: 'The To-Do List',
+		slug: 'the-to-do-list',
+		published: '30th Jan 2020',
+		html: `
+			<p>I am a big believer in making a list of everything you need for a project - so for a new portfolio site it makes sense to do the same. My go to tool currently for this
+			is <a href="https://www.notion.so">Notion</a>. It powers my life right now. For each project I make a list of taskls with a status. Pretty standard stuff. Then I use Notion to
+			turn that list into a Kanban Board and update the task status between the following values; not started, in progress, completed. Those are the three main values but more recently I have
+			been adding more - issues and fixed (hopefully self-explanatory), blocked (for those waiting on other aspects) and next (for future version features).</p>
+			<p>I've got a fair few lined up for this personal site already but the board needs tweaking still.</p>
+			<h3>The List</h3>
+			<ul>
+				<li>Overall Design V1</li>
+				<li>Color Palette Choice and Contrast Check</li>
+				<li>Footer Design and Build</li>
+				<li>Logomark and Header Build</li>
+				<li>CMS Backend Hook-up</li>
+				<li>About Section Build</li>
+				<li>Work Section Build</li>
+				<li>Project Case Study Write-ups and Designs</li>
+				<li>And so on...</li>
+			</ul>
+			<p>There's plenty for me to work on and hopefully share the theory around the changes/designs along the way. I'll probably even discuss the 'To-Do' method I use inside Notion
+			in more detail also. Stay tuned.</p>
+		`
+	},
+	{
 		title: 'A Short Introduction',
 		slug: 'short-introduction',
 		published: '29th Jan 2020',
